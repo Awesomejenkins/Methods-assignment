@@ -106,6 +106,10 @@ console.log(firstSentence);
 
 const price = "$35.59";
 
+const dutchPrice = price.replaceAll('$', '€');
+const dutchFinalPrice = dutchPrice.replaceAll(',','.');
+console.log(dutchFinalPrice);
+
 
 
 
